@@ -22,7 +22,7 @@ class RoundedNavBarViewController: UIViewController , RoundedCornerNavigationBar
     
     private func setupNavBar(){
         title = "Profile"
-        navigationController?.navigationBar.prefersLargeTitles = false
+        navigationController?.navigationBar.prefersLargeTitles = true
         addRoundedCorner(OnNavigationBar: self.navigationController!.navigationBar, cornerRadius: 20)
     }
 
