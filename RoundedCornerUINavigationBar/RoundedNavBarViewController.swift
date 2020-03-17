@@ -8,27 +8,24 @@
 
 import UIKit
 
-class RoundedNavBarViewController: UIViewController {
+class RoundedNavBarViewController: UIViewController , RoundedCornerNavigationBar{
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .cyan
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         setupNavBar()
     }
     
     private func setupNavBar(){
         title = "Profile"
-        
+        navigationController?.navigationBar.prefersLargeTitles = false
+        addRoundedCorner(OnNavigationBar: self.navigationController!.navigationBar, cornerRadius: 20)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
+
+ 

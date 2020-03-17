@@ -14,6 +14,7 @@
 		75B8AEFF2420D9090077AB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B8AEFE2420D9090077AB86 /* Assets.xcassets */; };
 		75B8AF022420D9090077AB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B8AF002420D9090077AB86 /* LaunchScreen.storyboard */; };
 		75DD63D22420DEFC003AFA5F /* RoundedNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD63D12420DEFC003AFA5F /* RoundedNavBarViewController.swift */; };
+		75DD63D42420E4F4003AFA5F /* UINavigationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD63D32420E4F4003AFA5F /* UINavigationControllerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		75B8AF012420D9090077AB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75B8AF032420D9090077AB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75DD63D12420DEFC003AFA5F /* RoundedNavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedNavBarViewController.swift; sourceTree = "<group>"; };
+		75DD63D32420E4F4003AFA5F /* UINavigationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				75B8AF002420D9090077AB86 /* LaunchScreen.storyboard */,
 				75B8AF032420D9090077AB86 /* Info.plist */,
 				75DD63D12420DEFC003AFA5F /* RoundedNavBarViewController.swift */,
+				75DD63D32420E4F4003AFA5F /* UINavigationControllerProtocol.swift */,
 			);
 			path = RoundedCornerUINavigationBar;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				75B8AEF62420D9070077AB86 /* AppDelegate.swift in Sources */,
 				75DD63D22420DEFC003AFA5F /* RoundedNavBarViewController.swift in Sources */,
 				75B8AEF82420D9070077AB86 /* SceneDelegate.swift in Sources */,
+				75DD63D42420E4F4003AFA5F /* UINavigationControllerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
