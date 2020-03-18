@@ -26,7 +26,6 @@ extension RoundedCornerNavigationBar where Self: UIViewController{
         
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = UIBezierPath(roundedRect: customView.bounds, byRoundingCorners: [.bottomLeft,.bottomRight], cornerRadii: CGSize(width: cornerRadius, height: cornerRadius)).cgPath
-        
         shapeLayer.shadowColor = UIColor.lightGray.cgColor
         shapeLayer.shadowOffset = CGSize(width: 0, height: 4.0)
         shapeLayer.shadowOpacity = 0.8

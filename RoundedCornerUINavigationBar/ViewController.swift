@@ -25,11 +25,9 @@ class ViewController: UIViewController {
         button.heightAnchor.constraint(equalToConstant: 60).isActive = true
         button.layer.cornerRadius = 5
         button.clipsToBounds = true
-        
         button.setTitle("Show View", for: .normal)
         button.backgroundColor = .lightGray
         button.setTitleColor(.black, for: .normal)
-        
         button.addTarget(self, action: #selector(self.buttonClicked), for: .touchUpInside)
     }
     
